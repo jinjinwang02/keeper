@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+html {
+  font-family: 'EB Garamond', serif;
+  position: relative;
+  min-height: 100vh;
+  background: #fff;
+}
+
+a, a:visited, a:hover,i {
+    color: inherit;
+    text-decoration: none;
+}
+
+button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  position: relative;
+}
+
+header {
+  margin: auto 110px;
+  padding: 20px 32px 20px 32px;
+  border-bottom: #000 2px solid;
+  text-align: center;
+}
+
+.page-title {
+  font-size: 38px;
+  color: #000;
+  font-family: 'Anton', sans-serif;
+}
+
+form {
+  border: #000 1px solid;
+  position: relative;
+  width: 560px;
+  margin: 30px auto 20px auto;
+  background: #fff;
+  padding: 15px;
+  padding-bottom: 26px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+}
+
+.container_note {
+  flex-grow: 1;
+  margin: 20px 80px;
+}
+
+.note {
+  border-bottom: #000 1px solid;
+  padding: 10px;
+  padding-bottom: 0;
+  width: 240px;
+  float: left;
+  margin: 10px 40px 40px 40px;
+}
+
+.note h1 {
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 6px;
+}
+
+.note p {
+  font-weight: 300;
+  margin-bottom: 4px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+form button, .delete-button {
+  color: #f5ba13;
+  float: right;
+}
+
+form button {
+  margin-right: 3px;
+}
+
+.delete-button {
+  height: 36px;
+}
+
+/* .edit-button {
+  color: #f5ba13;
+  height: 36px;
+} */
+
+footer {
+  position: fixed;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2rem;
+}
+
+footer p {
+  color: #ccc;
+  font-size: 14px;
+}
