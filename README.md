@@ -2,7 +2,7 @@
 
 A minimalist note-keeping app using MERN.
 
-![](client/public/homepage.PNG)
+![](images/homepage.PNG)
 
 ## Install
 
