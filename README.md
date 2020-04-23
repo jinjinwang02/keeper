@@ -2,6 +2,10 @@
 
 A minimalist note-keeping app using React.
 
+This is a local version of the master branch.
+
+![homepage](images/homepage.png)
+
 ## Install
 
 ```bash
