@@ -53,7 +53,7 @@ function InputForm(props) {
           onClick={() => {
             setInput({title: "", content: ""});
             validateInput(input) && 
-            axios.post('https://calm-tor-86699.herokuapp.com/notes/add',input).then(res => console.log(res));
+            axios.post('http://localhost:5000/notes/add',input).then(res => console.log(res));
             }
           }>ADD</button>
       </form>

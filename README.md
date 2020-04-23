@@ -2,7 +2,9 @@
 
 A minimalist note-keeping app using MERN.
 
-You can checkout front-end version in the local branch.
+Checkout the app at: https://calm-tor-86699.herokuapp.com/
+
+React version in the local branch.
 
 ## Install
 
