@@ -2,7 +2,7 @@
 
 A minimalist note-keeping app using MERN.
 
-![homepage](client/public/keeper-app-homepage.png)
+![homepage](client/public/homepage.png)
 
 ## Install
 
