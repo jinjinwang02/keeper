@@ -2,8 +2,6 @@
 
 A minimalist note-keeping app using MERN.
 
-![](images/homepage.PNG)
-
 ## Install
 
 ```bash
