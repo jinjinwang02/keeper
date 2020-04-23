@@ -5,14 +5,19 @@ A minimalist note-keeping app using MERN.
 ## Install
 
 ```bash
-# install requirements
+# Install dependencies for server
 npm install
 ```
+
+```bash
+# Install dependencies for client
+npm run client-install
+```
+
 ## Run server
 
 ```bash
-# run app
-(in root folder)
+# Run the client & server with concurrrently (in root folder)
 npm run dev
 ```
 
