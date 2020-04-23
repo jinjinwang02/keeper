@@ -1,24 +1,17 @@
 # Welcome to keeper
 
-A minimalist note-keeping app using MERN.
+A minimalist note-keeping app using React.
 
 ## Install
 
 ```bash
-# Install dependencies for server
 npm install
-```
-
-```bash
-# Install dependencies for client
-npm run client-install
 ```
 
 ## Run server
 
 ```bash
-# Run the client & server with concurrrently (in root folder)
-npm run dev
+npm start
 ```
 
 ## Open app
