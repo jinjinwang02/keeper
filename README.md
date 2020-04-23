@@ -2,6 +2,8 @@
 
 A minimalist note-keeping app using MERN.
 
+![homepage](client/public/keeper-app-homepage.png)
+
 ## Install
 
 ```bash
@@ -15,6 +17,11 @@ npm run client-install
 ```
 
 ## Run server
+
+```bash
+# To run the app you have to create a .env file with your mongo atlas account
+e.g. ATLAS_URI=mongodb+srv://username:password@cluster0-yo0nm.mongodb.net/NoteDB
+```
 
 ```bash
 # Run the client & server with concurrrently (in root folder)
