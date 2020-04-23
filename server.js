@@ -17,7 +17,6 @@ app.use(bodyParser.urlencoded({
   extended: true
 }));
 
-
 const uri = process.env.ATLAS_URI;
 mongoose.connect(uri, {useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true});
 
