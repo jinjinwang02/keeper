@@ -31,6 +31,7 @@ const notesRouter = require('./routes/notes');
 app.use('/notes', notesRouter);
 
 if(process.env.NODE_DEV === 'production'){
+  require("dotenv").config();
   app.use(express.static('client/build'));
 
   app.get('*', (req, res)=>{
