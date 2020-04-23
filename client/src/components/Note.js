@@ -11,7 +11,7 @@ function Note (props){
     <button 
       className="delete-button" 
       onClick={()=>{
-      axios.delete('http://localhost:5000/notes/'+ props.id).then(res => {
+      axios.delete('https://calm-tor-86699.herokuapp.com/notes/'+ props.id).then(res => {
         if(res.status === 200) {
           props.onChecked(props.id)
         }})
