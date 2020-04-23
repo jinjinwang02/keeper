@@ -10,7 +10,7 @@ function App() {
 const [posts, setPosts] = useState([]);
 
 useEffect(() => {
-  axios.get('http://localhost:5000/notes')
+  axios.get('https://calm-tor-86699.herokuapp.com/notes')
     .then(res => {
       console.log(res)
       setPosts(res.data)
