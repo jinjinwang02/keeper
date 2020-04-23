@@ -2,6 +2,8 @@
 
 A minimalist note-keeping app using MERN.
 
+You can checkout front-end version in the local branch.
+
 ## Install
 
 ```bash
