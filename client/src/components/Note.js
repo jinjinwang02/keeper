@@ -2,22 +2,23 @@ import React from "react";
 import axios from "axios";
 
 
-function Note (props){
-    return (
+function Note(props) {
+  return (
     <div className="note">
-    <h1>{props.title}</h1>
-    <p>{props.content}</p>
-    {/* <button className="edit-button">EDIT</button> */}
-    <button 
-      className="delete-button" 
-      onClick={()=>{
-      axios.delete('http://localhost:5000/notes/'+ props.id).then(res => {
-        if(res.status === 200) {
-          props.onChecked(props.id)
-        }})
-      }}>DELETE</button>
+      <h1>{props.title}</h1>
+      <p>{props.content}</p>
+      {/* <button className="edit-button">EDIT</button> */}
+      <button
+        className="delete-button"
+        onClick={() => {
+          axios.delete('https://calm-tor-86699.herokuapp.com/notes/' + props.id).then(res => {
+            if (res.status === 200) {
+              props.onChecked(props.id)
+            }
+          })
+        }}>DELETE</button>
     </div>
-    );
+  );
 }
 
 export default Note;

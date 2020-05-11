@@ -1,4 +1,4 @@
-import React, { useState} from "react";
+import React, { useState } from "react";
 import axios from "axios";
 
 function InputForm(props) {
@@ -9,17 +9,17 @@ function InputForm(props) {
   });
 
   function validateInput(input) {
-     if(input.title.length>0 && input.content.length>0){
+    if (input.title.length > 0 && input.content.length > 0) {
       return true
-    } else if (input.title.length===0 && input.content.length>0){
-        alert("Please give your note a title.")
-        return false
-    } else if (input.title.length>0 && input.content.length ===0){
-        alert("Please include some contents.")
-        return false
+    } else if (input.title.length === 0 && input.content.length > 0) {
+      alert("Please give your note a title.")
+      return false
+    } else if (input.title.length > 0 && input.content.length === 0) {
+      alert("Please include some contents.")
+      return false
     } else {
-        alert("Please give your note a title and some contents.")
-        return false
+      alert("Please give your note a title and some contents.")
+      return false
     }
   }
 
@@ -42,19 +42,19 @@ function InputForm(props) {
           name="title"
           placeholder="Title"
         />
-          <textarea
+        <textarea
           value={input.content}
           onChange={handleChange}
           name="content"
           placeholder="Take a note..."
           rows="3"
         />
-          <button
+        <button
           onClick={() => {
-            setInput({title: "", content: ""});
-            validateInput(input) && 
-            axios.post('http://localhost:5000/notes/add',input).then(res => console.log(res));
-            }
+            setInput({ title: "", content: "" });
+            validateInput(input) &&
+              axios.post('https://calm-tor-86699.herokuapp.com/notes/add', input).then(res => console.log(res));
+          }
           }>ADD</button>
       </form>
     </div>
