@@ -25,6 +25,7 @@ button {
   outline: none;
   border: none;
   position: relative;
+  background-color: #fff;
 }
 
 header {
