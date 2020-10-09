@@ -26,4 +26,4 @@ Your app will now be accessible at localhost:3000
 
 👤 **Jinjin Wang**
 
-* Github: [@lyrisswing](https://github.com/lyrisswing)
+- Github: [@jinjinwang02](https://github.com/jinjinwang02)
