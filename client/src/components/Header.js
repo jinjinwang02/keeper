@@ -22,7 +22,7 @@ function Header() {
           <p>Contact me by: </p>
           <i className="far fa-envelope"></i> <a href="mailto: jinjinwang@gmail.com" target="_blank" rel="noopener noreferrer">Email   &nbsp;&nbsp;</a>
           <i className="icon fab fa-linkedin"> <a href="https://www.linkedin.com/in/jinjin-wang-616a99183/" target="_blank" rel="noopener noreferrer">Linkedin &nbsp;</a></i>
-          <i className="fab fa-github"></i> <a href="https://github.com/lyrisswing" target="_blank" rel="noopener noreferrer">Github</a>
+          <i className="fab fa-github"></i> <a href="https://github.com/jinjinwang02" target="_blank" rel="noopener noreferrer">Github</a>
         </div>
       )}
     </header>
