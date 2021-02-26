@@ -4,3 +4,4 @@ npm-debug.log
 yarn.lock
 .env
 package-lock.json
+coverage
